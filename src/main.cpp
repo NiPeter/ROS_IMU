@@ -128,7 +128,7 @@ void setup() {
         rosInit();
         Serial.println();
 
-        timer.every(50,rosTask);
+        timer.every(20,rosTask);
         timer.every(500,SerialReader);
 
 
