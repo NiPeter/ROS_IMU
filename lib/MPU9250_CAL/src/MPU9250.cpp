@@ -55,12 +55,13 @@ void MPU9250::begin(uint8_t int_pin){
                 }
 
                 // From python_messenger calibration
-                magBias[0] = 72.0f;
-                magBias[1] = -295.5f;
-                magBias[2] = -393.5f;
-                magScale[0] = 1.015674f;
-                magScale[1] = 0.962852f;
-                magScale[2] = 1.023696f;
+                magBias[0]=86.01536560058594f;
+                magBias[1]=412.04066467285156f;
+                magBias[2]=-115.7061767578125f;
+
+                magScale[0] = 1.0033856583885659f;
+                magScale[1] = 0.9758402035296071f;
+                magScale[2] = 1.0218509636051605f;
 
 
                 // imu.gyroBias[0] = 67;
